@@ -1,0 +1,227 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+  <link href="/assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <section class="relative max-w-screen-2xl">
+    <div class="container">
+      <div class="navbar pt-14">
+        <div class="logo-wrap">
+          <img src="assets/images/vk-orange.svg" alt="">
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="txt-wrap mt-20 pt-6 lg:w-3/5">
+        <h2 class="maintenance-label text-pop-300 mb-5">
+          🚧 Our website is cooming soon
+        </h2>
+        <h1 class="main-title text-pop-100 mb-5">
+          You can still work with Us, even though our website is <span class="text-pop-200">under
+            development</span>
+        </h1>
+        <p class="p14 text-pop-50">
+          We are a creative design agency that will help you Transform ideas & concepts to make your Idea
+          happens and give solutions for your needs This is where we start to give creative solutions for your
+          needs.
+        </p>
+      </div>
+      <div class="services-wrap mt-8">
+        <div class="service-item flex items-center">
+          <img src="assets/images/icon-checklist-yellow.svg" alt="" class="icon-check mr-2">
+          <h3 class="itemcheck">
+            UI/UX Design
+          </h3>
+        </div>
+      </div>
+      
+      <!-- Trigger/Open The Modal -->
+      <button id="btn-popup" class="btn-primary text-white mt-12 flex items-center">
+        <img src="assets/images/icon-chat-bubble.svg" class="mr-5" alt=""> Get In touch
+      </button>
+
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content rounded-3xl relative">
+          <div class="close absolute top-0 right-0 p-6">
+            <img src="assets/images/ion_close-circle-outline.svg" alt="">
+          </div>
+          <!-- <span class="close"></span> -->
+          <!-- <p>Some text in the Modal..</p> -->
+          <div class="txt-form">
+            <h4>👋 Hi There,</h4>
+            <p>Please give a little information about you, and we can get to know each other better.</p>
+          </div>
+          <!-- <form action="submission.php" method="post">
+            <div class="mb-4">
+              <label for="exampleText0" class="form-label inline-block mb-2 text-gray-700">
+                Your Name
+              </label>
+              <input type="text" class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="exampleText0" placeholder="Text input"/>
+            </div>
+            <div class="mb-4">
+              <label for="exampleText0" class="form-label inline-block mb-2 text-gray-700">
+                Email
+              </label>
+              <input type="email" class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="exampleText0" placeholder="Text input"/>
+            </div>
+            <div class="mb-4">
+              <label for="exampleFormControlTextarea1" class="form-label inline-block mb-2 text-gray-700">Your Need</label>
+              <textarea class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="exampleFormControlTextarea1" rows="3" placeholder="Your message"></textarea>
+            </div>
+            <div class="mb-4">
+              <button id="" class="btn-primary text-white mt-12 flex items-center">
+                <img src="assets/images/icon-chat-bubble.svg" class="mr-5" alt=""> Send Now
+              </button>
+            </div>
+          </form> -->
+          
+          <div class="quick-contact">
+            <p>or Quick Contact</p>
+            <a href="#">
+              <!-- image  -->
+              Whatsapp
+            </a>
+          </div>
+          <a href="mailto:visualkreasi@gmail.com" class="btn-primary text-white mt-6 flex items-center justify-center w-full">
+            <img src="assets/images/icon-chat-bubble.svg" class="mr-3" alt=""> Email
+          </a>
+          <a href="https://wa.me/6289675306646" class="btn-primary text-white mt-6 flex items-center justify-center w-full">
+            <img src="assets/images/icon-chat-bubble.svg" class="mr-3" alt=""> Whatsapp
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="container mt-44 mb-11">
+      <div class="social-wrap flex items-center">
+        <div class="social-item mr-9">
+          <img src="assets/images/icon-ig-gradient.svg" alt="" class="icon-social">
+        </div>
+        <div class="social-item mr-9">
+          <img src="assets/images/icon-dribbble-orange.svg" alt="" class="icon-social">
+        </div>
+        <div class="social-item mr-9">
+          <img src="assets/images/icon-behance-orange.svg" alt="" class="icon-social">
+        </div>
+        <div class="social-item mr-9">
+          <img src="assets/images/icon-canva-orange.svg" alt="" class="icon-social">
+        </div>
+        <div class="social-item">
+          <img src="assets/images/icon-ui8-orange.svg" alt="" class="icon-social">
+        </div>
+      </div>
+    </div>
+
+    <!-- Slider main container -->
+    <div class="slide-wrapper hidden lg:flex absolute right-0 top-0 w-2/5">
+      <div class="slider-container mr-6">
+        <div class="swiper0 swiper-freemode">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide mb-6">
+              <div class="img-placeholder">
+                <img src="assets/images/frame-1.png" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide mb-6">
+              <div class="img-placeholder">
+                <img src="assets/images/frame-2.png" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide mb-6">
+              <div class="img-placeholder2">
+                <img src="assets/images/frame-3.png" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide mb-6">
+              <div class="img-placeholder">
+                <img src="assets/images/frame-1.png" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide mb-6">
+              <div class="img-placeholder">
+                <img src="assets/images/frame-2.png" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide mb-6">
+              <div class="img-placeholder2">
+                <img src="assets/images/frame-3.png" alt="">
+              </div>
+            </div>
+          </div>
+          <!-- If we need pagination -->
+          <!-- <div class="swiper-pagination"></div> -->
+
+          <!-- If we need navigation buttons -->
+          <!-- <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div> -->
+
+          <!-- If we need scrollbar -->
+          <!-- <div class="swiper-scrollbar"></div> -->
+        </div>
+      </div>
+      <div class="slider-container">
+        <div class="swiper1 swiper-freemode">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide mb-6">
+              <div class="img-placeholder">
+                <img src="assets/images/frame-4.png" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide mb-6">
+              <div class="img-placeholder">
+                <img src="assets/images/frame-5.png" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide mb-6">
+              <div class="img-placeholder2">
+                <img src="assets/images/frame-6.png" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide mb-6">
+              <div class="img-placeholder">
+                <img src="assets/images/frame-4.png" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide mb-6">
+              <div class="img-placeholder">
+                <img src="assets/images/frame-5.png" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide mb-6">
+              <div class="img-placeholder2">
+                <img src="assets/images/frame-6.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="assets/js/modal.js"></script>
+  <script src="assets/js/swiper.js"></script>
+</body>
+
+</html>
