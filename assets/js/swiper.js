@@ -3,7 +3,7 @@ var swiper0 = new Swiper('.swiper0', {
     direction: 'vertical',
     loop: true,
     autoplay: {
-      delay: 1,
+      delay: 1000,
       disableOnInteraction: false
     },
     slidesPerView: 'auto',
@@ -20,7 +20,7 @@ var swiper1 = new Swiper('.swiper1', {
   direction: 'vertical',
   loop: true,
   autoplay: {
-    delay: 1,
+    delay: 1000,
     reverseDirection: true,
     disableOnInteraction: false
   },
